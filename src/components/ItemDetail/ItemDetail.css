@@ -6,24 +6,24 @@
 }
 
 button {
-    background-color: #FF007F;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-    position: relative;
-    border-radius: 15px;
+  background-color: #FF007F;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 4px 4px 0px #f576b6b6;
 
-    /* Sombra dura de color (como en image_1.png) */
-    box-shadow: 4px 4px 0px #f576b6b6;
+    
 }
 
 button:hover {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px 0px #f576b6b6;
-  background-color: #E60072; /* Un rosa ligeramente más oscuro */
+  background-color: #E60072; 
 }
 
 .item-detail .card{
@@ -31,7 +31,7 @@ button:hover {
   width: 100%;
   max-width: 900px;
   height: auto;
-  flex-direction: row; /* Lo ponemos en horizontal */
+  flex-direction: row; 
   align-items: center;
   gap: 3rem;
   padding: 40px;
@@ -39,9 +39,9 @@ button:hover {
   box-shadow: 6px 6px 0px #98dff8c0;
 }
 
-/* Cambiamos la imagen del Item solo en el detalle */
+
 .item-detail .card img {
-  width: 400px; /* Más grande para el detalle */
+  width: 400px; 
   height: 400px;
   object-fit: contain;
   background: #fff;
