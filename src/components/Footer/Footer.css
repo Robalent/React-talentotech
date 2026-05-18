@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #98dff8c0;
+  padding: 15px;
+  margin: 10px
+}
+
+footer li {
+  color: #0F7FD4;
+  font-family: 'Pixelify Sans', sans-serif;
+
+}

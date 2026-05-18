@@ -1,0 +1,65 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-list li a {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-family: 'Pixelify Sans', sans-serif;
+  color: #000;
+  font-size: 22px;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: white;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list li a:hover {
+  color: #0F7FD4; 
+}
+
+.nav-list li:last-child a {
+  background-color: #98dff8c0;
+  color: #0F7FD4;
+  padding: 8px 20px;
+  border-radius: 50px; 
+  border: 3px solid #0F7FD4;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-list li:last-child a:hover {
+  background-color:#0F7FD4;/* #98DFF8;  */
+  color: #98dff8c0;
+  box-shadow: 3px 4px 0px #98dff8c0;
+  transform: translate(2px, 2px);
+  border: 3px solid #98dff8c0;
+}
+
+.incart {
+  position: absolute;
+  top: -12px;
+  right: -5px;
+  background-color:#E60072;
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 14px;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}

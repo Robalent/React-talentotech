@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "BTS ARIRANG",
+    "description": "BTS - Álbum 'ARIRANG' (V version).",
+    "price": 90000,
+    "image": "/img/BTS1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "BTS ARIRANG",
+    "description": "BTS - Álbum 'ARIRANG' (Full group version).",
+    "price": 100000,
+    "image": "/img/BTS2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Taylor Swift",
+    "description": "Taylor Swift CD - Álbum 'Midnights'.",
+    "price": 40000,
+    "image": "/img/TS1.png"
+  },
+  {
+    "id": 4,
+    "name": "Harry Styles",
+    "description": "Harry Styles - Álbum 'Kiss All The Time, Disco Occasionally'.",
+    "price": 80000,
+    "image": "/img/HS1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Rodrigo",
+    "description": "Olivia Rodrigo - Álbum 'GUTS'.",
+    "price": 38000,
+    "image": "/img/OR1.png"
+  },
+  {
+    "id": 6,
+    "name": "Sabrina Carpenter",
+    "description": "Sabrina Carpenter - Álbum 'Man´s Best Friend'.",
+    "price": 45500,
+    "image": "/img/SC1.png"
+  }
+]
