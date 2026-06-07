@@ -59,3 +59,18 @@ export const getProductById = async(id) => {
         return null
     }
 }
+
+/*----------------------------------------------------------------- */
+/*                       ALTA DE PRODUCTO                          */
+/*---------------------------------------------------------------- */
+
+export const createProduct = async (productData) => {
+    try {
+        const docRef = await addDoc(productsRef, productData)
+        return docRef.id //opcional por si queremos usar el id para algo
+        
+    } catch (err) {
+        console.error("Error al crear el producto", error)
+        throw error
+    }
+}
