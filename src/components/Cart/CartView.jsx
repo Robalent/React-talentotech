@@ -9,7 +9,7 @@ export const CartView = () => {
 
     return (
         <section className="cart-container">
-            <h1>Tu carrito de compras</h1>
+            <h1 className="pixelify-sans-uniquifier">Tu carrito de compras</h1>
 
             {cart.length ? (
             <>
@@ -19,7 +19,7 @@ export const CartView = () => {
             ) : (
             <>
             <p>El carrito está vacío</p>
-            <Link className="btn primary bg-primary" to={"/"}> Volver </Link>
+            <Link className="btn-back" to={"/"}> Ver los productos </Link>
             </>          
             )}
         </section>

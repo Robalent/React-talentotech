@@ -42,7 +42,7 @@ export const ItemListContainer = () => {
 
   return (
     <section>
-      <h1 className="pixelify-sans-uniquifier">NUESTROS PRODUCTOS</h1> 
+      <h1 className="pixelify-sans-uniquifier">Nuestros  Productos</h1> 
 
       <ItemList products={products} />
     </section>

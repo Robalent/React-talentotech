@@ -8,7 +8,7 @@ export const CartSummary = () => {
         <>
         <p>TOTAL A PAGA: ${total}</p>
         {/* <p>TOTAL A PAGAR: ${getCartTotal2()}</p> para quantity */}
-        <button className="btn bg-success primary" onClick={checkout}>FINALIZAR COMPRA</button>
+        <button className="btn-finish" onClick={checkout}>FINALIZAR COMPRA</button>
         </>
     )
 }

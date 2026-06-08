@@ -5,16 +5,15 @@
   gap: 1rem;
   padding-bottom: 1rem;
   background: white;
-  border: 4px solid #fff; /* Borde blanco grueso */
+  border: 4px solid #fff; 
   box-shadow: 6px 6px 0px #98dff8c0;
   border-radius: 20px;
   padding: 20px;
   height: 30rem;
-
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px); /* Desenfoque de fondo */
   border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(152, 223, 248, 0.3); /* Sombra de color cian muy tenue */
+  box-shadow: 0 8px 32px 0 rgba(152, 223, 248, 0.3); 
 }
 
 .card img {
@@ -25,4 +24,25 @@
 
 .card:hover {
   transform: scale(1.02);
+}
+
+.card-info p{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin:7px;
+}
+.card-info h3{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin:7px;
+}
+
+.item-price{
+  color:#E60072;
+  text-shadow:2px 0px 6px #E60072;
 }

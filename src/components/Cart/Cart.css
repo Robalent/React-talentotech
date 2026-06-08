@@ -1,0 +1,71 @@
+.cart-items-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.2rem;
+}
+
+.btn-finish{
+    background-color: #0F7FD4;
+    box-shadow: none;
+    border: 3px solid transparent;
+    display: table;
+    margin: 10px auto 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-finish:hover{
+    /* display: flex; */
+    background-color: #98dff8c0;
+    box-shadow: none;
+    border: 3px solid #0F7FD4;
+    color: #0F7FD4;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-back{
+    background-color: #0F7FD4;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: table;
+    margin: 10px auto 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-back:hover{
+    background-color: #98dff8c0;
+    box-shadow: none;
+    border: 3px solid #0F7FD4;
+    color: #0F7FD4;
+    justify-content: center;
+}
+
+.btn-delete{
+    background-color: #FF007F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    display: table;
+    margin: 10px auto 0 auto;
+    padding: 10px 20px;
+}
+
+.btn-delete:hover {
+  background-color: #E60072; 
+  transform: none;
+}
