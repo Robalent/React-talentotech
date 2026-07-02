@@ -42,9 +42,18 @@ export const ItemListContainer = () => {
 
   return (
     <section>
-      <h1 className="pixelify-sans-uniquifier">Nuestros  Productos</h1> 
+
+      <div>
+        <h1 className="geist-pixel-uniquifier">¡Bienvenid@ a supernatural.fm !</h1>
+        <p className="hero-text">Si la música forma parte de tu vida, estás en el lugar indicado!. Explorá nuestra colección de vinilos, CDs y cassettes de tus artistas favoritos y descubrí nuevas joyitas...</p>
+        <div className="vinilo-hero">
+          <img src="/public/img/vinilo.png" alt="" className="vinilo"/>
+        </div>
+      </div>
+
+      <h1 className="pixelify-sans-uniquifier" id="products">Nuestros  Productos</h1> 
 
       <ItemList products={products} />
     </section>
-  );
+  )
 };

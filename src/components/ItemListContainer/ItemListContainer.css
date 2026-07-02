@@ -11,3 +11,44 @@
 h1{
   margin-top: 25px;
 }
+
+.geist-pixel-uniquifier {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-variation-settings:
+  "ELSH" 0;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 40px !important;
+}
+
+.hero-text{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.3rem;
+  margin:8px;
+}
+
+.vinilo-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vinilo{
+  width: 185px;
+  animation: spin 5s linear infinite;
+  transform-origin: center;
+}
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
