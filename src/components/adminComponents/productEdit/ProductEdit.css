@@ -1,0 +1,27 @@
+.image-preview{
+    margin: 5px auto;
+    padding: 12px;
+    border: 1px dashed #0F7FD4;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+    max-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.image-preview p{
+    font-size: 14px;
+    margin: 0;
+    color: black;
+    font-weight: 400;
+}
+
+.image-preview img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+}

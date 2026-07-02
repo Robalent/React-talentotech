@@ -1,0 +1,74 @@
+.form-container{
+    width: 100%;
+    min-height: 100vh; 
+    background: linear-gradient(0deg, rgba(15, 127, 212, 0.55) 0%, rgba(255, 255, 255, 1) 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(15, 127, 212, 0.15);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    text-align: center;
+}
+form h2{
+    margin: 10px;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label{
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 8px;;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.input-group input{
+    width: 100%;
+    border: 1px solid rgba(15, 127, 212, 0.2);
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: #334155;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #0f7fd4;
+    box-shadow: 0 0 0 3px rgba(15, 127, 212, 0.15);
+}
+
+.btn-login{
+    background-color: #FF007F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 15px;
+    transform: none !important;
+}
+
+.btn-login:hover{
+    background-color: #f856a7aa;
+    color: #E60072;
+}

@@ -13,7 +13,7 @@
     padding-bottom: 1rem;
     background: white;
     border: 4px solid #fff;
-    box-shadow: 6px 6px 0px #98dff8c0;
+    /* box-shadow: 6px 6px 0px #98dff8c0; */
     border-radius: 20px;
     padding: 20px;
     height: auto;
@@ -23,6 +23,15 @@
     box-shadow: 0 8px 32px 0 rgba(152, 223, 248, 0.3);
     margin-top: 1.5rem;
     align-items: center;
+}
+
+.product-form h2{
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "ELSH" 0;
 }
 
 div input, textarea{
@@ -47,6 +56,7 @@ div input, textarea{
     border: 3px solid #0F7FD4;
     color: #0F7FD4;
     justify-content: center;
+    transform: none;
 }
 
 label{
@@ -56,3 +66,62 @@ label{
     text-align: center;
 }
 
+.btn-backtopanel{
+    background-color: #E60072;
+    box-shadow: none;
+    border: 3px solid transparent;
+    display: table;
+    margin: 10px auto 0 auto;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-backtopanel:hover{
+    display: table;
+    background-color: #f856a7aa;
+    box-shadow: none;
+    border: 3px solid #E60072;
+    color: #E60072;
+    justify-content: center;
+    transform: none;
+}
+
+/* VISTA DE ÉXITO */
+.btn-newproduct{
+    display: table;
+    margin: 10px auto 0 auto;
+    padding: 5px 15px;
+    background-color: #0F7FD4;
+    color: white;
+    border: 2px solid #0F7FD4;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-newproduct:hover{
+    background-color: #98dff8c0;
+    border: 2px solid #0F7FD4;
+    color: #0F7FD4;
+    transform: none;
+}
+
+.geist-pixel-uniquifier {
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "ELSH" 0;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+span{
+    color: #E60072;
+    font-style: italic;
+}

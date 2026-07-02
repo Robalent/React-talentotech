@@ -33,13 +33,13 @@
   text-align: center;
   margin:7px;
 }
-.card-info h3{
-  font-family: "Pixelify Sans", sans-serif;
+.card-info h3 {
+  font-family: "Geist Pixel", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
-  margin:7px;
+  margin: 7px;
 }
 
 .item-price{

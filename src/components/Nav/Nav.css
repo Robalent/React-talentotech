@@ -2,16 +2,18 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
 .nav-list li a {
-  font-size: 2rem;
   margin: 0.5rem;
   text-decoration: none;
   font-family: 'Pixelify Sans', sans-serif;
   color: #000;
-  font-size: 22px;
+  font-size: 18px;
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 50px;
@@ -20,6 +22,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
 }
 
 .nav-list li a:hover {
@@ -62,4 +65,10 @@
   justify-content: center;
   align-items: center;
   line-height: 0;
+}
+
+@media screen and (max-width: 430px) {
+  .nav-list li:first-child{
+    display: none;
+  }
 }

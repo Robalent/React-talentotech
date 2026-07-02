@@ -45,7 +45,7 @@ export const ProductFormContainer = () => {
 
         try {
 
-            throw new Error ("Error de prueba")
+            // throw new Error ("Error de prueba")
              //subir la imagen 
             const imageurl = await uploadImage(file)
 
@@ -62,7 +62,7 @@ export const ProductFormContainer = () => {
             //vaciar
             setProduct({name: "", price:"", description:""})
             setFile(null)
-            navigate(`/success/${id}`, {replace:true})
+            navigate(`/admin/products/success/${id}`, {replace:true})
 
         } catch (error) {
             setErrors({general: error.message})

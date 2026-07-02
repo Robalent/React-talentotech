@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
+import "./ProductEdit.css"
 
-export const ProductFormUI = ({product, errors, loading, onChange,onFileChange, onSubmit}) => {
+export const ProductEditUI = ({product, errors, loading, onChange,onFileChange, onSubmit}) => {
   return(
     <section className="section-form">
         <form className="product-form" onSubmit={onSubmit}>
-            {/* <h2 className="pixelify-sans-uniquifier">Agregar nuevo producto</h2> */}
-            <h2>Agregar nuevo producto</h2>
+            <h2 className="pixelify-sans-uniquifier">Editar producto</h2>
 
             <div>
                 <label>Nombre: </label>
@@ -25,19 +25,25 @@ export const ProductFormUI = ({product, errors, loading, onChange,onFileChange, 
                 {errors.description && <p className="error">{errors.description}</p>}
             </div>
 
+            {(product.image || product.imagen) && (
+                <div className="image-preview">
+                    <p>Imagen actual:</p>
+                    <img src={product.image || product.imagen} alt={product.name} className="product-img" />
+                </div>
+            )}
             <div>
-                <label>Imagen: </label>
+                <label>Cambiar imagen (Dejar vacío para mantener la actual): </label>
                 <input type="file" accept="image/*" onChange={onFileChange} />
                 {errors.file && <p className="error">{errors.file}</p>}
             </div>
 
-            <button className="btn-save" type="submit" disabled={loading}> {loading ? "Guardando...":"Guardar"}</button>
+            <button className="btn-save" type="submit" disabled={loading}> {loading ? "Actualizando...":"Guardar cambios"}</button>
             {errors.general && <p className="error">{errors.general}</p>}
 
         </form>
 
         {/* <button className="btn-backtopanel" >Volver al panel principal</button> */}
-        <Link to="/admin" className="btn-backtopanel">Volver al panel principal</Link>
+        <Link to="/admin/products/list" className="btn-backtopanel">Cancelar y volver</Link>
     </section>
   ) 
 }

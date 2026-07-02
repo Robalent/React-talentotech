@@ -13,7 +13,7 @@ export const validateProduct = (product) => {
         errors.description = "La descripción es obligatorio"
     }
 
-     if (!product.file()) {
+     if (!product.file) {
         errors.file = "Debe seleccionar una imagen"
     }
 
