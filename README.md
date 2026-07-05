@@ -3,11 +3,12 @@
 El objetivo del proyecto fue desarrollar una tienda online moderna, con una experiencia de navegación simple, intuitiva y visualmente atractiva.
 
 ## 🌐 Demo 
-Demo online (realizada durante el curso Talento Tech)
+Demo online (realizada durante el curso Talento Tech):
 https://react-talentotech.vercel.app/
 
 ## ✨ Funcionalidades
-Los usuarios puede: 
+Los usuarios pueden:
+
 -Explorar la páagina principal con un hero interactivo
 - Visualizar el catálogo completo de productos
 - Acceder al detalle de cada producto
