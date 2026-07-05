@@ -1,13 +1,13 @@
 🎵 Supernatural.fm 🎵
-Supernatural.fm es un e-commerce ficticio desarrollado con React, inspirado en la estética de los 2000's.
+## Supernatural.fm es un e-commerce ficticio desarrollado con React, inspirado en la estética de los 2000's.
 El objetivo del proyecto fue desarrollar una tienda online moderna, con una experiencia de navegación simple, intuitiva y visualmente atractiva.
 
 🌐 Demo 
-Demo online (realizada durante el curso Talento Tech)
+## Demo online (realizada durante el curso Talento Tech)
 https://react-talentotech.vercel.app/
 
 ✨ Funcionalidades
-Los usuarios puede: 
+## Los usuarios puede: 
 -Explorar la páagina principal con un hero interactivo
 - Visualizar el catálogo completo de productos
 - Acceder al detalle de cada producto
@@ -38,4 +38,4 @@ npm run dev
 ```
 
 👩‍💻 Autora 
-Rocio Balent - 2026
+** Rocio Balent - 2026
