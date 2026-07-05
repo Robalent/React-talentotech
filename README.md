@@ -1,4 +1,4 @@
-🎵 Supernatural.fm 🎵
+# 🎵 Supernatural.fm 🎵
 ## Supernatural.fm es un e-commerce ficticio desarrollado con React, inspirado en la estética de los 2000's.
 El objetivo del proyecto fue desarrollar una tienda online moderna, con una experiencia de navegación simple, intuitiva y visualmente atractiva.
 
@@ -38,4 +38,4 @@ npm run dev
 ```
 
 👩‍💻 Autora 
-** Rocio Balent - 2026
+** Rocio Balent - 2026 **
