@@ -26,7 +26,7 @@ Los usuarios pueden:
 ## 🚀 Intalación 
 1. Clonar el repositorio 
 ```bash
-git clone https://github.com/tu-usuario/supernatural-fm.git
+git clone https://github.com/Robalent/React-talentotech.git
 ```
 2. Instalar dependencias 
 ```bash
