@@ -8,7 +8,7 @@ https://react-talentotech.vercel.app/
 
 ## ✨ Funcionalidades
 Los usuarios pueden:
-- Explorar la páagina principal con un hero interactivo
+- Explorar la página principal con un hero interactivo
 - Visualizar el catálogo completo de productos
 - Acceder al detalle de cada producto
 - Agregar y eliminar productos del carrito 
