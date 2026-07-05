@@ -1,16 +1,41 @@
-# React + Vite
+🎵 Supernatural.fm 🎵
+Supernatural.fm es un e-commerce ficticio desarrollado con React, inspirado en la estética de los 2000's.
+El objetivo del proyecto fue desarrollar una tienda online moderna, con una experiencia de navegación simple, intuitiva y visualmente atractiva.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Demo 
+Demo online (realizada durante el curso Talento Tech)
+https://react-talentotech.vercel.app/
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+Los usuarios puede: 
+-Explorar la páagina principal con un hero interactivo
+- Visualizar el catálogo completo de productos
+- Acceder al detalle de cada producto
+- Agregar y eliminar productos del carrito 
+- Navegar desde dispositivos móviles y escritorio gracias a su diseño responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Tecnologías utilizadas
+- React
+- Reacr Router DOM
+- Firebase Firestore 
+- Context API
+- HTML
+- CSS 
+- Font Awesome
 
-## React Compiler
+🚀 Intalación 
+1. Clonar el repositorio 
+```bash
+git clone https://github.com/tu-usuario/supernatural-fm.git
+```
+2. Instalar dependencias 
+```bash
+npm install
+```
+3. Ejecutar el proyecto 
+```bash
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👩‍💻 Autora 
+Rocio Balent - 2026

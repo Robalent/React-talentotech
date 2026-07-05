@@ -1,12 +1,33 @@
 import "./Footer.css";
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export const Footer = () => {
+  const navigate= useNavigate()
+
+  const scrollToProducts = () => {
+    if (window.location.pathname !== "/") {
+      navigate("/");
+
+      setTimeout(() => {
+        document.getElementById("products")?.scrollIntoView({
+          behavior: "smooth",
+        });
+      }, 200);
+    } else {
+      document.getElementById("products")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+};
+
   return (
     <footer>
       <div className="footer-links">
         <Link to={"/"}>Home</Link>
-        <Link to={"/productos"}>Productos</Link>
+        <Link to="/" onClick={(e) => {
+            e.preventDefault();
+            scrollToProducts()
+          }}>Productos</Link>
         <Link to={"/carrito"}>Carrito</Link>
       </div>
       {/* <div className="footer-title-container">
@@ -19,7 +40,8 @@ export const Footer = () => {
         </ul>
         
       </nav>
-        <h6>2025 - © todos los derechos reservados</h6>
+        <h6>2026 - © todos los derechos reservados</h6>
+        <h6 className="autor">Rocio Balent</h6>
     </footer>
   );
 };

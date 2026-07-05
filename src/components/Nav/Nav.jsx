@@ -21,7 +21,7 @@ export const Nav = () => {
         behavior: "smooth",
       });
     }
-};
+  }; 
 
   const totalItems = getTotalItems();
   return (
